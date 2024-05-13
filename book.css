@@ -1,0 +1,163 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #333; /* Dark background color for header */
+  color: #fff; /* White text color */
+  padding: 20px 0;
+}
+
+.logo {
+  color: #fff; /* White text color for logo */
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  color: #fff; /* White text color for nav links */
+  text-decoration: none;
+}
+
+.search-form {
+  display: none;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: #fff; /* White background color */
+  padding: 50px 0;
+}
+
+.hero-content {
+  width: 50%;
+}
+
+.hero-image {
+  width: 50%;
+  float: right;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Featured Genres Section Styles */
+.featured-genres {
+  background-color: #f0f0f0; /* Light gray background color */
+  padding: 50px 0;
+}
+
+.genre-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.genre-card {
+  width: 45%;
+  background-color: #fff; /* White background color */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.genre-card img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+}
+
+.genre-card h3 {
+  margin-top: 10px;
+  color: #333; /* Dark text color */
+}
+
+.genre-card p {
+  color: #666; /* Medium gray text color */
+}
+
+/* Customer Quotes Section Styles */
+.customer-quotes {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 50px 0;
+}
+
+.quote-slider {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  margin-bottom: 20px;
+}
+
+.quote p {
+  font-style: italic;
+}
+
+/* Book Highlights Section Styles */
+.book-highlights {
+  background-color: #f9f9f9; /* Light gray background color */
+  padding: 50px 0;
+}
+
+.highlight-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight {
+  width: 45%;
+  background-color: #fff; /* White background color */
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.highlight i {
+  font-size: 36px;
+  color: #333; /* Dark text color */
+}
+
+.highlight h3 {
+  margin-top: 10px;
+  color: #333; /* Dark text color */
+}
+
+.highlight p {
+  color: #666; /* Medium gray text color */
+}
+.footer {
+  background-color: #f2f2f2;  /* Light gray background color */
+  padding: 20px 0;  /* Add padding top and bottom */
+  text-align: center;  /* Center the content horizontally */
+}
+
+.footer p {
+  color: #333;  /* Text color */
+  font-size: 14px;  /* Font size */
+  margin: 0;  /* Remove default margin */
+}
